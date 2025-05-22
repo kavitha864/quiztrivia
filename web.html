@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Trivia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h1 id="welcome">Welcome to the Interactive Quiz Trivia!</h1>
+    <p id="instructions">Test your knowledge and have some fun!</p>
+    <button id="start-quiz" onclick="startQuiz()">Start Quiz</button>
+    <div id="quiz-area">
+      <h2 id="question"></h2>
+      <ul id="answer-choices"></ul>
+    </div>
+    <div id="result-area">
+      <p id="result"></p>
+      <button id="next-question" onclick="nextQuestion()">Next Question</button>
+    </div>
+  </div>
+    <div id="result-area">
+      <p id="result"></p>
+      <button id="restart-button" onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  <script src="web.js"></script>
+</body>
+</html>

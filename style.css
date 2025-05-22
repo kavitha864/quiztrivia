@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url(Purple\ sky.jpeg);
+    image-orientation: flip;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .question-box {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 20px; /* Add padding for visual appeal */
+    border: 1px solid #ddd; /* Optional border */
+
+  }
+  
+  #quiz-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #welcome {
+    margin-bottom: 20px;
+  }
+  
+  #instructions {
+    margin-bottom: 30px;
+  }
+  
+  #start-quiz {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #quiz-area {
+    display: none; /* Hide the quiz area initially */
+    margin-top: 30px;
+  }
+  
+  #question {
+    margin-bottom: 20px;
+  }
+  
+  #answer-choices {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #answer-choices li {
+    margin-right: 20px;
+  }
+  
+  #answer-choices li:last-child {
+    margin-right: 0;
+  }
+  
+  #answer-choices li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    align-items: center;
+  }
+  
+  #result-area {
+    display: none; /* Hide the result area initially */
+    margin-top: 30px;
+  }
+  
+  #result {
+    margin-bottom: 20px;
+  }
+  
+  #restart-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
