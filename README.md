@@ -33,6 +33,7 @@ Make sure you have the following installed:
  MongoDB
 
 WEB INTERFACE SCREENSHOT:
+![Purple sky](https://github.com/user-attachments/assets/49f8420b-e7a6-4059-91cc-6bd95571c7fc)
 
 ________________________________________
 USAGE:
